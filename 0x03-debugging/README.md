@@ -1,0 +1,1 @@
+These are my debbuging techiques in C
