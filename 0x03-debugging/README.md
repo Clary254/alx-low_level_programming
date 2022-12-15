@@ -1,1 +1,1 @@
-These are my debbuging techiques in C
+Debbugging is good
