@@ -1,11 +1,14 @@
 #include "main.h"
 /**
- * main
+ * _print_rev_recursion - reverse
+ * @s: pointer to string params
  *
- * Return: Always 0.
 */
-int main(void)
+void _print_rev_recursion(char *s)
 {
-_print_rev_recursion("\nColton Walker");
-return (0);
+if (*s)
+{
+_print_rev_recursion(s + 1);
+_putchar(*s);
+}
 }
