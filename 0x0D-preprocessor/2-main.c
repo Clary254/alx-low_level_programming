@@ -6,6 +6,6 @@
 */
 int main(void)
 {
-rintf("%s\n", __FILE__);
+printf("%s\n", __FILE__);
 return (0);
 }
